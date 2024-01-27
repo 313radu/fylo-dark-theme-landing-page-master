@@ -1,0 +1,195 @@
+@media (width < 850px) {
+  header {
+    width: 100%;
+    height: 120px;
+  }
+  header nav .logo img {
+    width: 70%;
+    height: 60%;
+  }
+  header nav ul li {
+    padding-right: 2em;
+  }
+  header nav ul li a {
+    font-size: 0.775rem;
+  }
+  main {
+    width: 100%;
+  }
+  main .section-1 {
+    width: 100%;
+  }
+  main .section-1 .top-section img {
+    width: 90%;
+    height: 100%;
+  }
+  main .section-1 .bottom-section-1 {
+    margin-block-start: 3em;
+    width: 100%;
+    height: 42vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main .section-1 .bottom-section-1 h1,
+  main .section-1 .bottom-section-1 h2,
+  main .section-1 .bottom-section-1 button {
+    z-index: 5;
+  }
+  main .section-1 .bottom-section-1 h1 {
+    width: 95%;
+    color: hsl(0, 0%, 100%);
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 40px;
+  }
+  main .section-1 .bottom-section-1 h2 {
+    width: 80%;
+  }
+  main .section-1 .bottom-section-1 button {
+    width: 200px;
+    height: 40px;
+  }
+  main .section-1 .bottom-section-1 .desktop {
+    display: none;
+  }
+  main .section-1 .bottom-section-1 .mobile {
+    width: 100%;
+    height: 100%;
+    display: block;
+    -o-object-fit: cover;
+       object-fit: cover;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  main .section-2 {
+    width: 100%;
+    padding-top: 6em;
+  }
+  main .section-2 .details-container {
+    width: 100%;
+  }
+  main .section-2 .details-container .detail {
+    width: 90%;
+  }
+  main .section-2 .details-container .detail img {
+    width: 80px;
+    height: 80px;
+  }
+  main .section-2 .details-container .detail p {
+    width: 90%;
+    font-weight: 600;
+    font-size: 1.375rem;
+    line-height: 25px;
+  }
+  main .section-2 .details-container .detail p:nth-child(3) {
+    font-size: 0.925rem;
+  }
+  main .section-3 {
+    width: 100%;
+  }
+  main .section-3 .left-section-3 {
+    width: 100%;
+  }
+  main .section-3 .left-section-3 img {
+    margin-inline: 2em 2em;
+  }
+  main .section-3 .right-section-3 {
+    width: 100%;
+    padding: 2em;
+  }
+  main .section-3 .right-section-3 h3 {
+    text-align: center;
+    font-size: 1.375rem;
+  }
+  main .section-3 .right-section-3 p {
+    font-size: 0.875rem;
+    line-height: 30px;
+  }
+  main .section-4 {
+    padding-top: 5em;
+  }
+  main .section-4 .testimonial .quotes {
+    width: 35px;
+    height: 25px;
+    left: 5px;
+  }
+  main .section-4 article {
+    margin-top: 2em;
+    width: 100%;
+    height: 13vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  main .section-4 article .floating-section {
+    width: 90%;
+    position: absolute;
+    right: 5%;
+  }
+  main .section-4 article .floating-section h4 {
+    font-size: 1.375rem;
+    text-align: center;
+  }
+  main .section-4 article .floating-section p {
+    font-size: 1.075rem;
+  }
+  main .section-4 article .floating-section form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    margin-inline: 0 0;
+  }
+  main .section-4 article .floating-section form input[type=email], main .section-4 article .floating-section form input[type=submit] {
+    width: 90%;
+    height: 50px;
+  }
+  main .section-4 article .floating-section form input[type=submit] {
+    transform: translateX(-5px);
+  }
+  footer {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding-top: 12em;
+    gap: 2em;
+  }
+  footer .footer-content-1 {
+    display: flex;
+  }
+  footer .footer-content-1 img.footer-logo {
+    width: 200px;
+    height: 70px;
+  }
+  footer .footer-content-1 .footer-text img.location-icon {
+    width: 30px;
+    height: 30px;
+  }
+  footer .footer-content-2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-inline: 2em 0;
+  }
+  footer .footer-content-3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+  footer .footer-content-3 ul {
+    width: 100%;
+    display: block;
+    margin-left: 2em;
+  }
+  footer .footer-content-3 ul li {
+    margin-block: 1.5em 1.5em;
+  }
+}/*# sourceMappingURL=mobile.css.map */
